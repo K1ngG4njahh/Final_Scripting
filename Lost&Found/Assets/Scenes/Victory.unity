@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 1021777102}
   - component: {fileID: 1021777101}
   m_Layer: 0
-  m_Name: Scene controller
+  m_Name: SceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1021777100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a45f0a153cabd54397604907128e01e, type: 3}
+  m_Script: {fileID: 11500000, guid: bfda065056561fc4d85508a895e2932c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1021777102
@@ -404,7 +404,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1021777101}
-        m_TargetAssemblyTypeName: GameoverCS1, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangerButton, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:

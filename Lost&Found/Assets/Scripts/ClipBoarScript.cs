@@ -48,7 +48,7 @@ public class ClipBoarScript : MonoBehaviour
         
         if (foundOjbs.Count >= playerBehav.lostObjects.Count)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Victory");
         }
     }
     

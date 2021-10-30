@@ -14,7 +14,7 @@ public class TimerBehavior : MonoBehaviour
 
     private void Start()
     {
-        finishtemp = 3;
+        finishtemp = 1;
     }
     void Update()
     {
@@ -40,7 +40,7 @@ public class TimerBehavior : MonoBehaviour
 
         if (finishtemp <= 0)
         {
-            SceneManager.LoadScene("GameOverScreen");
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
