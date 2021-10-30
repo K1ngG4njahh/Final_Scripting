@@ -749,6 +749,7 @@ GameObject:
   - component: {fileID: 346419823}
   - component: {fileID: 346419822}
   - component: {fileID: 346419821}
+  - component: {fileID: 346419824}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -819,10 +820,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 625336941}
-        m_TargetAssemblyTypeName: SceneChangerButton, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 11400000, guid: cb3a9a355784d0e4ba4a151ca649efa1, type: 2}
+        m_TargetAssemblyTypeName: GameStateCaller, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -869,6 +870,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346419819}
   m_CullTransparentMesh: 1
+--- !u!114 &346419824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346419819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9189ff6068cb11b409bf835f297ca58a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateCaller: {fileID: 11400000, guid: cb3a9a355784d0e4ba4a151ca649efa1, type: 2}
 --- !u!1 &413745084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,6 +1296,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfda065056561fc4d85508a895e2932c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  victory: Victory
+  lost: GameOver
+  level: Level1
+  events: {fileID: 11400000, guid: cb3a9a355784d0e4ba4a151ca649efa1, type: 2}
 --- !u!4 &625336942
 Transform:
   m_ObjectHideFlags: 0
