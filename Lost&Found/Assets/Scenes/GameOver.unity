@@ -218,7 +218,7 @@ RectTransform:
   - {fileID: 1410103143}
   - {fileID: 545058318}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -309,7 +309,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1043628016}
-        m_TargetAssemblyTypeName: GameoverCS1, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangerButton, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 1043628017}
   - component: {fileID: 1043628016}
   m_Layer: 0
-  m_Name: Scenecontrol
+  m_Name: SceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1043628015}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a45f0a153cabd54397604907128e01e, type: 3}
+  m_Script: {fileID: 11500000, guid: bfda065056561fc4d85508a895e2932c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1043628017
@@ -399,7 +399,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1410103142
 GameObject:
@@ -485,7 +485,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1043628016}
-        m_TargetAssemblyTypeName: GameoverCS1, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChangerButton, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
@@ -493,7 +493,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: LvL1
+          m_StringArgument: Level1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1410103145
@@ -598,7 +598,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1919844103
 GameObject:
