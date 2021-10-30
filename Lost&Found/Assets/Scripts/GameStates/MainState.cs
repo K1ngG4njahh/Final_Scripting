@@ -9,6 +9,6 @@ public class MainState : IGameState
     {
         //Cargar escena de menu
 
-        SceneManager.LoadScene(sceneChanger.menu);
+        SceneManager.LoadScene(sceneChanger.main);
     }
 }
