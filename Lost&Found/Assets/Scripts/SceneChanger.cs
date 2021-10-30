@@ -7,7 +7,7 @@ public class SceneChanger : MonoBehaviour
     public string victory = "Victory";
     public string lost = "GameOver";
     public string level = "Level1";
-    public string menu = "main";
+    public string main = "main";
 
     IGameState states;
     [SerializeField] GameStateCaller events;
