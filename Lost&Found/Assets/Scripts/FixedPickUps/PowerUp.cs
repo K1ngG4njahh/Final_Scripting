@@ -18,6 +18,12 @@ public class PowerUp : PickUp, I_Collect
 
     public void Collect()
     {
-        throw new System.NotImplementedException();
+        gameObject.GetComponent<Collider2D>().enabled = false;
+        AudioSource.PlayClipAtPoint(Audio1, transform.position);
+        Player.invPowerUps.Add(gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Collect();
     }
 }

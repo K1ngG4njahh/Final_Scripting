@@ -18,6 +18,14 @@ public class LostObject : PickUp, I_Collect
 
     public void Collect()
     {
-        throw new System.NotImplementedException();
+        gameObject.GetComponent<Collider2D>().enabled = false;
+        AudioSource.PlayClipAtPoint(Audio1, transform.position);
+        gameObject.SetActive(false);
+        ClipBoard.foundOjbs.Add(gameObject);
+        ClipBoard.stamping = true;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Collect();
     }
 }
