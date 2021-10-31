@@ -20,6 +20,7 @@ public class PowerUp : PickUp, I_Collect
     {
         gameObject.GetComponent<Collider2D>().enabled = false;
         AudioSource.PlayClipAtPoint(Audio1, transform.position);
+        gameObject.SetActive(false);
         Player.invPowerUps.Add(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
