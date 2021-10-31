@@ -10793,20 +10793,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6781568038521334710, guid: da59ef285a0c0764bac29c41e020bcd5, type: 3}
   m_PrefabInstance: {fileID: 6781568038628015797}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &245650692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 245650691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8588af4c07dc17e4ab4fdeff55797e98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audio: {fileID: 8300000, guid: 5aa99743c8eda8e448cf455d226b7063, type: 3}
-  clipBoard: {fileID: 806342336}
 --- !u!4 &245650694 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6781568038521334707, guid: da59ef285a0c0764bac29c41e020bcd5, type: 3}
@@ -12434,8 +12420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59251b40d131a5143a47fa850e2761e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 0}
-  player: {fileID: 0}
+  audio: {fileID: 8300000, guid: 95592f758ba219448a7b972a5eddbb23, type: 3}
+  player: {fileID: 832223023}
 --- !u!4 &1644674170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3352878478318979614, guid: 3207809b0683aeb44b54435e59b0e600, type: 3}
@@ -12940,8 +12926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59251b40d131a5143a47fa850e2761e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 0}
-  player: {fileID: 0}
+  audio: {fileID: 8300000, guid: 95592f758ba219448a7b972a5eddbb23, type: 3}
+  player: {fileID: 832223023}
 --- !u!4 &2104450257 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8820452152902113415, guid: d3c94c8124f7d7e42bbde1b5aeb1aba0, type: 3}
@@ -13067,7 +13053,8 @@ PrefabInstance:
       propertyPath: playerScript
       value: 
       objectReference: {fileID: 832223023}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5186554340162249515, guid: 3207809b0683aeb44b54435e59b0e600, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3207809b0683aeb44b54435e59b0e600, type: 3}
 --- !u!1001 &3389610685611908696
 PrefabInstance:
@@ -13355,6 +13342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shoe
       objectReference: {fileID: 0}
+    - target: {fileID: 8274149072601065469, guid: da59ef285a0c0764bac29c41e020bcd5, type: 3}
+      propertyPath: clipBoard
+      value: 
+      objectReference: {fileID: 806342336}
     m_RemovedComponents:
     - {fileID: 692351507016675021, guid: da59ef285a0c0764bac29c41e020bcd5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da59ef285a0c0764bac29c41e020bcd5, type: 3}
@@ -13672,5 +13663,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimeUp
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4589840134627575959, guid: d3c94c8124f7d7e42bbde1b5aeb1aba0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d3c94c8124f7d7e42bbde1b5aeb1aba0, type: 3}
