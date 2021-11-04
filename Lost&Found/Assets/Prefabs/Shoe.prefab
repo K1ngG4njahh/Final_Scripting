@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6781568038521334707}
   - component: {fileID: 6781568038521334704}
   - component: {fileID: 6781568038521334705}
-  - component: {fileID: 692351507016675021}
   - component: {fileID: 3806691333739868707}
   - component: {fileID: 8274149072601065469}
   m_Layer: 0
@@ -102,21 +101,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.06, y: 0}
   m_Size: {x: 1.47, y: 0.64}
   m_Direction: 1
---- !u!114 &692351507016675021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6781568038521334710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2362aae82b669ca4c8cd4148debc64b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipBoar: {fileID: 0}
-  pickUp: {fileID: 6781568038521334710}
-  audioClip: {fileID: 8300000, guid: 5aa99743c8eda8e448cf455d226b7063, type: 3}
 --- !u!82 &3806691333739868707
 AudioSource:
   m_ObjectHideFlags: 0

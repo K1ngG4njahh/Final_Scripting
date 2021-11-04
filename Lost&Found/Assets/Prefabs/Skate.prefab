@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4209198047642528502}
   - component: {fileID: 4209198047642528503}
   - component: {fileID: 4209198047642528500}
-  - component: {fileID: 8684333961815433110}
   - component: {fileID: 8736232395435126546}
+  - component: {fileID: 3163063196055196968}
   m_Layer: 0
   m_Name: Skate
   m_TagString: PickUp
@@ -101,21 +101,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.01, y: 0.09}
   m_Size: {x: 0.49, y: 0.12}
   m_Direction: 1
---- !u!114 &8684333961815433110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4209198047642528501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2362aae82b669ca4c8cd4148debc64b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipBoar: {fileID: 0}
-  pickUp: {fileID: 4209198047642528501}
-  audioClip: {fileID: 8300000, guid: 5aa99743c8eda8e448cf455d226b7063, type: 3}
 --- !u!82 &8736232395435126546
 AudioSource:
   m_ObjectHideFlags: 0
@@ -212,3 +197,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3163063196055196968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4209198047642528501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8588af4c07dc17e4ab4fdeff55797e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio: {fileID: 8300000, guid: 5aa99743c8eda8e448cf455d226b7063, type: 3}
+  clipBoard: {fileID: 0}
