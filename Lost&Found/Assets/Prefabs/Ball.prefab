@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7775864713551156712}
   - component: {fileID: 7775864713551156713}
   - component: {fileID: 7775864713551156710}
-  - component: {fileID: 1245477545548527178}
   - component: {fileID: 8029639358751082150}
+  - component: {fileID: 8168700201055352709}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -101,21 +101,6 @@ CircleCollider2D:
   m_Offset: {x: 0.01, y: -0.11}
   serializedVersion: 2
   m_Radius: 0.72
---- !u!114 &1245477545548527178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7775864713551156711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2362aae82b669ca4c8cd4148debc64b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipBoar: {fileID: 0}
-  pickUp: {fileID: 7775864713551156711}
-  audioClip: {fileID: 8300000, guid: 5aa99743c8eda8e448cf455d226b7063, type: 3}
 --- !u!82 &8029639358751082150
 AudioSource:
   m_ObjectHideFlags: 0
@@ -212,3 +197,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8168700201055352709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7775864713551156711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8588af4c07dc17e4ab4fdeff55797e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio: {fileID: 8300000, guid: 5aa99743c8eda8e448cf455d226b7063, type: 3}
+  clipBoard: {fileID: 0}

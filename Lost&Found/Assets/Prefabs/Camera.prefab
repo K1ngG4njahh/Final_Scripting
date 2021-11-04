@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5284918080384521872}
   - component: {fileID: 5284918080384521873}
   - component: {fileID: 5284918080384521874}
-  - component: {fileID: 5329887270055442723}
   - component: {fileID: 8588175486454576900}
+  - component: {fileID: 4315772105389637178}
   m_Layer: 0
   m_Name: Camera
   m_TagString: PickUp
@@ -111,21 +111,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.72, y: 1.09}
   m_EdgeRadius: 0
---- !u!114 &5329887270055442723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5284918080384521875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2362aae82b669ca4c8cd4148debc64b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipBoar: {fileID: 0}
-  pickUp: {fileID: 5284918080384521875}
-  audioClip: {fileID: 8300000, guid: 5aa99743c8eda8e448cf455d226b7063, type: 3}
 --- !u!82 &8588175486454576900
 AudioSource:
   m_ObjectHideFlags: 0
@@ -222,3 +207,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4315772105389637178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5284918080384521875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8588af4c07dc17e4ab4fdeff55797e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio: {fileID: 8300000, guid: 5aa99743c8eda8e448cf455d226b7063, type: 3}
+  clipBoard: {fileID: 0}
