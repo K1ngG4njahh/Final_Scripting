@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8820452152902113415}
   - component: {fileID: 8820452152902113414}
   - component: {fileID: 8820452152902113433}
-  - component: {fileID: 8014319698401223799}
+  - component: {fileID: 7619918510944050687}
   m_Layer: 0
   m_Name: TimeUp
   m_TagString: TimeUp
@@ -100,7 +100,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.48, y: 0.97}
   m_Direction: 0
---- !u!114 &8014319698401223799
+--- !u!114 &7619918510944050687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,8 +109,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8820452152902113432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59251b40d131a5143a47fa850e2761e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 747bbe192f78069488331abd0aed1ae8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  extraTime: 10
   audio: {fileID: 8300000, guid: 95592f758ba219448a7b972a5eddbb23, type: 3}
-  player: {fileID: 0}
+  timerBehavior: {fileID: 0}

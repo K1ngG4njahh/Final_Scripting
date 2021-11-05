@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3352878478318979614}
   - component: {fileID: 3352878478318979613}
   - component: {fileID: 3352878478318979612}
-  - component: {fileID: 450914147784739995}
+  - component: {fileID: 5946199158993166979}
   m_Layer: 0
   m_Name: VelUP
   m_TagString: VelUp
@@ -100,7 +100,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.48, y: 0.97}
   m_Direction: 0
---- !u!114 &450914147784739995
+--- !u!114 &5946199158993166979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,8 +109,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3352878478318979603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59251b40d131a5143a47fa850e2761e7, type: 3}
+  m_Script: {fileID: 11500000, guid: cc25962e3acb9304287ce6cb2024c626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audio: {fileID: 8300000, guid: 95592f758ba219448a7b972a5eddbb23, type: 3}
-  player: {fileID: 0}
+  playerBehav: {fileID: 0}

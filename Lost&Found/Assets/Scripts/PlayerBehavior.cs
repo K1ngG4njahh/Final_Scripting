@@ -5,12 +5,11 @@ using UnityEngine;
 public class PlayerBehavior : MonoBehaviour
 {
     public List<GameObject> mapPowerUps, invPowerUps;
-    public List<GameObject> lostObjects;
     [SerializeField]Collider2D playerCollider;
-    [SerializeField] PlayerMovement playerMov;
+    public PlayerMovement playerMov;
     [SerializeField] TimerBehavior timeBehav;
     [SerializeField] float durationSpeedUP ,startTime, startSpeed, extrTime;
-    bool speedON;
+    public bool speedON;
 
     void Start()
     {
@@ -32,44 +31,6 @@ public class PlayerBehavior : MonoBehaviour
             durationSpeedUP = startTime/3;
             playerMov.speed = startSpeed;
             speedON = false;
-        }
-        #endregion
-
-
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        #region powerUps
-        
-        if (collision.tag == "VelUp")
-        {
-            playerMov.speed *= 2;
-            speedON = true;
-            foreach (GameObject item in invPowerUps)
-            {
-                foreach (GameObject j in mapPowerUps)
-                {
-                    if (j.name == item.name)
-                    {
-                        item.SetActive(false);
-                    }
-                }
-            }
-            
-        }
-        else if (collision.tag == "TimeUp")
-        {
-            timeBehav.seconds += extrTime;
-            foreach (GameObject item in invPowerUps)
-            {
-                foreach (GameObject j in mapPowerUps)
-                {
-                    if (j.name == item.name)
-                    {
-                        item.SetActive(false);
-                    }
-                }
-            }
         }
         #endregion
     }
