@@ -12932,14 +12932,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 194219593}
     m_Modifications:
-    - target: {fileID: 450914147784739995, guid: 3207809b0683aeb44b54435e59b0e600, type: 3}
-      propertyPath: audio
-      value: 
-      objectReference: {fileID: 8300000, guid: 95592f758ba219448a7b972a5eddbb23, type: 3}
-    - target: {fileID: 450914147784739995, guid: 3207809b0683aeb44b54435e59b0e600, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 832223023}
     - target: {fileID: 3352878478318979603, guid: 3207809b0683aeb44b54435e59b0e600, type: 3}
       propertyPath: m_Name
       value: VelUP
@@ -12988,6 +12980,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5946199158993166979, guid: 3207809b0683aeb44b54435e59b0e600, type: 3}
+      propertyPath: playerBehav
+      value: 
+      objectReference: {fileID: 832223023}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3207809b0683aeb44b54435e59b0e600, type: 3}
 --- !u!1001 &3389610685611908696
@@ -13642,14 +13638,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 194219593}
     m_Modifications:
-    - target: {fileID: 8014319698401223799, guid: d3c94c8124f7d7e42bbde1b5aeb1aba0, type: 3}
-      propertyPath: audio
+    - target: {fileID: 7619918510944050687, guid: d3c94c8124f7d7e42bbde1b5aeb1aba0, type: 3}
+      propertyPath: timerBehavior
       value: 
-      objectReference: {fileID: 8300000, guid: 95592f758ba219448a7b972a5eddbb23, type: 3}
-    - target: {fileID: 8014319698401223799, guid: d3c94c8124f7d7e42bbde1b5aeb1aba0, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 832223023}
+      objectReference: {fileID: 433360334}
     - target: {fileID: 8820452152902113415, guid: d3c94c8124f7d7e42bbde1b5aeb1aba0, type: 3}
       propertyPath: m_RootOrder
       value: 1

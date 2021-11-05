@@ -11,4 +11,9 @@ public class PickUp : MonoBehaviour
         Audio = audio;
     }
     public AudioClip Audio { get => audio; set => audio = value; }
+
+    public virtual void Collect()
+    {
+
+    }
 }

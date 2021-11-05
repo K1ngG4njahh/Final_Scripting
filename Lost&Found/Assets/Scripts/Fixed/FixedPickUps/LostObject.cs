@@ -19,7 +19,7 @@ public class LostObject : PickUp
     public ClipBoard ClipBoard { get => clipBoard; set => clipBoard = value; }
     public int Id { get => id; set => id = value; }
 
-    public void Collect()
+    public override void Collect()
     {
         AudioSource.PlayClipAtPoint(Audio1, transform.position);
         gameObject.SetActive(false);
