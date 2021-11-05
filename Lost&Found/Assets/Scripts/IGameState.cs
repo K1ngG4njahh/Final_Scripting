@@ -5,4 +5,5 @@ using UnityEngine;
 public interface IGameState
 {
     void execute(SceneChanger sceneChanger);
+
 }
