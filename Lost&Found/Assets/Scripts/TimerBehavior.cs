@@ -12,6 +12,9 @@ public class TimerBehavior : MonoBehaviour
     public float seconds , minutes, finishtemp;
     public bool gameOver;
 
+    IGameState states;
+    [SerializeField] GameStateCaller events;
+
     private void Start()
     {
         finishtemp = 1;
@@ -40,6 +43,7 @@ public class TimerBehavior : MonoBehaviour
 
         if (finishtemp <= 0)
         {
+            events.Lost();
             SceneManager.LoadScene("GameOver");
         }
     }

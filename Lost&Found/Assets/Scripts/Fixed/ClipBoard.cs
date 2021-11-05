@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ClipBoard : MonoBehaviour
 {
     public List<GameObject> lostObjects, foundObjects;
     [SerializeField] List<Text> textBoxes;
+
+    [SerializeField] GameStateCaller events;
 
     private void Awake()
     {
@@ -28,7 +31,8 @@ public class ClipBoard : MonoBehaviour
         }
         if (index == textBoxes.Count)
         {
-            print("ganaste");
+            events.Won();
+            SceneManager.LoadScene("Victory");
         }
     }
 }

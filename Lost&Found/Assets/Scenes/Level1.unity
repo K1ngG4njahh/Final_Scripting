@@ -13074,6 +13074,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 339482177}
     - target: {fileID: 5229037081266333860, guid: 635c81ffb2394a94b9937f6ec81caef5, type: 3}
+      propertyPath: events
+      value: 
+      objectReference: {fileID: 11400000, guid: cb3a9a355784d0e4ba4a151ca649efa1, type: 2}
+    - target: {fileID: 5229037081266333860, guid: 635c81ffb2394a94b9937f6ec81caef5, type: 3}
       propertyPath: lostObjects.Array.data[0]
       value: 
       objectReference: {fileID: 199284438}
