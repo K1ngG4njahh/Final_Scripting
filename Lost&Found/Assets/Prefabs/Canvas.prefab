@@ -706,8 +706,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 3389610685751137175}
+  playerControl: {fileID: 0}
   seconds: 10
   minutes: 0
+  finishtemp: 0
+  gameOver: 0
 --- !u!1 &3389610685952340757
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,6 +722,7 @@ GameObject:
   - component: {fileID: 3389610685952340758}
   - component: {fileID: 3389610685952340744}
   - component: {fileID: 3389610685952340759}
+  - component: {fileID: 5229037081266333860}
   m_Layer: 5
   m_Name: clipboard
   m_TagString: Untagged
@@ -785,6 +789,32 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5229037081266333860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3389610685952340757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c547d38fef87e3548bb1459c6cb4e99d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lostObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  textBoxes:
+  - {fileID: 3389610686745791000}
+  - {fileID: 3389610685363519048}
+  - {fileID: 3389610686842643413}
+  - {fileID: 3389610686280522200}
+  - {fileID: 3389610685179103785}
+  - {fileID: 3389610686455574211}
 --- !u!1 &3389610686280522022
 GameObject:
   m_ObjectHideFlags: 0
